@@ -73,7 +73,7 @@ export abstract class BaseDeviceTracker<DD extends BaseDeviceDescriptor, TE exte
         return a;
     }
 
-    protected title = 'Device list';
+    protected title = 'Scrcpy';
     protected tableId = 'base_device_list';
     protected descriptors: DD[] = [];
     protected elementId: string;
